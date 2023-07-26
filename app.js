@@ -42,7 +42,7 @@ Vue.createApp({
         const myTextarea = document.getElementById('code-area')
         CodeMirror.fromTextArea(myTextarea, {
             lineNumbers: true,
-            module: "HTML"
+            module: "htmlmixed"
         });
     },
 }).mount('#app')
